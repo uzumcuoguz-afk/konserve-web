@@ -1,14 +1,5 @@
-{
-  "builds": [
-    {
-      "src": "app.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "app.py"
-    }
-  ]
-}
+flask==3.0.3
+supabase==2.15.1
+python-dotenv==1.0.1
+httpx
+postgrest
